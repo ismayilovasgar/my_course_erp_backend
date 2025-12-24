@@ -18,7 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
-src/docker-volumes/
+docker-volumes/
+docker-compose.yml
 
 ### NetBeans ###
 /nbproject/private/

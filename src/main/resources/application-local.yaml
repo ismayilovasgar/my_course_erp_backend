@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/course_erp_db
+    username: postgres
+    password: postgres
+
+  liquibase:
+    enabled: true
+    change-log: classpath:migrations/changelog-master.xml
+
+
+#security:
+#  jwt:
+#      public-key:
+#      private-key:
+#      access-token-validity-time: 1800000
+#      refresh-token-validity-time: 86400000

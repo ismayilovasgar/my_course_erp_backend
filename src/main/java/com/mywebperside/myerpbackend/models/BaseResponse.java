@@ -21,6 +21,7 @@ public class BaseResponse<T> {
         return BaseResponse.<T>builder()
                 .status(HttpStatus.OK)
                 .msg("Success")
+                .data(data)
                 .build();
     }
 }
