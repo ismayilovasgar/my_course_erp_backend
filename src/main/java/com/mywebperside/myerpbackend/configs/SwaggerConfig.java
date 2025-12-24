@@ -23,8 +23,8 @@ public class SwaggerConfig {
     public OpenAPI myOpenAPI() {
 
         Contact contact = new Contact();
-        contact.setEmail("bezkoder@gmail.com");
-        contact.setName("BezKoder");
+        contact.setEmail("zamann5467@gmail.com");
+        contact.setName("Zaman_44");
         contact.setUrl("https://www.bezkoder.com");
 
         Info info = new Info()
