@@ -8,6 +8,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+#      - POSTGRES_HOST_AUTH_METHOD:trust
 #      - POSTGRES_MULTIPLE_DATABASES="language-learning-db"
     ports:
       - '5432:5432'

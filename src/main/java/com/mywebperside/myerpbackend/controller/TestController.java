@@ -1,6 +1,6 @@
 package com.mywebperside.myerpbackend.controller;
 
-import com.mywebperside.myerpbackend.models.BaseResponse;
+import com.mywebperside.myerpbackend.models.base.BaseResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

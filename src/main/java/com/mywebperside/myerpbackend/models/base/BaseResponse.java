@@ -1,4 +1,4 @@
-package com.mywebperside.myerpbackend.models;
+package com.mywebperside.myerpbackend.models.base;
 
 
 import org.springframework.http.HttpStatus;
